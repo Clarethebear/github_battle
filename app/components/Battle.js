@@ -34,7 +34,7 @@ function Instructions () {
 }
 
 class PlayerInput extends React.Component {
-  state= {
+  state = {
     username: ''
 }
   handleSubmit = (event) => {
@@ -42,7 +42,7 @@ class PlayerInput extends React.Component {
 
     this.props.onSubmit(this.state.username)
 }
-  handleChange(event) {
+  handleChange = (event) => {
     this.setState({
       username: event.target.value
     })
