@@ -1,2 +1,2 @@
 # GitHub-battle
-A GitHub battle clone using React.
+ui.dev React project
